@@ -20,5 +20,8 @@ module.exports = function(app){
 	app.get("/teamassist", function(req, res){
 		res.sendFile(path.join(__dirname, "/../public/teamassist.html"))
 	});
+	app.get("/secret", function(req, res){
+		res.sendFile(path.join(__dirname, "/../public/addCoach.html"))
+	});
 	
 };
