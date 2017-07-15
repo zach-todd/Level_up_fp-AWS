@@ -1,0 +1,38 @@
+[
+{
+"_id": "5969c490a8dc7d74f8284bff",
+"name": "Tim Todd",
+"email": "furycoach@hotmail.com",
+"phone": "4045699048",
+"age": "1970-01-01T00:00:01.970Z",
+"sports": "Softball",
+"bio": "Duis condimentum, tortor in dapibus commodo, urna metus cursus urna, eget accumsan massa dui vitae nibh. Ut in vehicula ante, id sodales mi. Donec sit amet diam molestie, dapibus enim a, vestibulum nisl. Aliquam id nunc auctor, elementum arcu id, pellentesque tellus. Integer quis gravida nisi. Phasellus consequat erat nec odio accumsan tincidunt. Curabitur sapien nisi, vehicula sed nibh ut, laoreet cursus dolor. Proin vestibulum sed sapien a dapibus. Nunc sit amet justo non odio ullamcorper maximus. In eu iaculis ante.",
+"password": "password",
+"userCreated": "2017-07-15T07:30:24.744Z",
+"__v": 0
+},
+{
+"_id": "5969c4e4a8dc7d74f8284c00",
+"name": "Jason Little",
+"email": "J.Little@levelupfp.com",
+"phone": "7705695945",
+"age": "1970-01-01T00:00:01.992Z",
+"sports": "Softball",
+"bio": "Suspendisse et ante nisl. Ut eget lorem ullamcorper, luctus lectus a, placerat sapien. Praesent eu arcu quis erat tempus scelerisque. Vestibulum in lobortis nunc, ac pharetra eros. Vivamus sed massa est. Curabitur quis velit ac velit feugiat porta. Cras facilisis porta eleifend. Aenean a nisl eu eros varius ornare at eu urna. Nulla vel augue vel mi lobortis fringilla sit amet ut arcu. Ut at faucibus augue. Maecenas et suscipit risus. Aliquam erat volutpat. Aenean non porttitor arcu, in pulvinar libero. Mauris vel scelerisque neque. Aliquam ante dui, euismod ut euismod nec, posuere quis mauris.",
+"password": "Password",
+"userCreated": "2017-07-15T07:31:48.614Z",
+"__v": 0
+},
+{
+"_id": "5969c515a8dc7d74f8284c01",
+"name": "Holly Little",
+"email": "H.Little@levelupfp.com",
+"phone": "6783135418",
+"age": "1970-01-01T00:00:01.992Z",
+"sports": "Softball",
+"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus urna et dapibus aliquet. Integer risus mauris, sollicitudin convallis viverra sed, placerat sed erat. Maecenas viverra, enim eu placerat varius, dui magna laoreet mi, eget fringilla lectus tortor vitae magna. Mauris porta, est ut molestie posuere, dui risus convallis libero, id facilisis ipsum nibh ut turpis. Etiam ut lorem id dui finibus efficitur. In pellentesque consectetur ante pharetra elementum. Integer finibus nunc ac mi porttitor, ut accumsan lacus condimentum. Phasellus laoreet auctor libero sit amet convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Praesent ut rutrum justo. Sed et scelerisque sapien.",
+"password": "Password",
+"userCreated": "2017-07-15T07:32:37.401Z",
+"__v": 0
+}
+]

@@ -25,7 +25,8 @@ require("./app/controller/htmlRoutes")(app);
 app.use(express.static(__dirname + "/app"));
 
 
-var db =process.env.MONGODB_URI || "mongodb://localhost/CoachList";
+var db = "mongodb://heroku_ks948969:c9biokp3qfem3v685g9boe3q6e@ds111622.mlab.com:11622/heroku_ks948969" || "mongodb://localhost/CoachList";
+
 var databaseUrl = "CoachList";
 var collections = ["coaches"];
 
@@ -40,7 +41,7 @@ mongoose.connect(db, function(error){
   }
 });
 app.get("/all", function(req,res){
-  coaches.find({},function(error, found){
+  dbb.coaches.find({},function(error, found){
     if(error){
       console.log(error);
     }
