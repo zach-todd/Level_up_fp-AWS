@@ -4,6 +4,7 @@ var expressHandlebars= require("express-handlebars");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
+var mongojs = require("mongojs");
 
 var Coach = require("./app/models/coach.js");
 
@@ -17,11 +18,18 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
-app.use(express.static("public"));
+
+
 
 require("./app/controller/htmlRoutes")(app);
+app.use(express.static(__dirname + "/app"));
 
-var db ="mongodb://localhost/CoachList";
+
+var db = process.env.mongodb:;
+var databaseUrl = "CoachList";
+var collections = ["coaches"];
+
+var dbb= mongojs(databaseUrl, collections)
 
 mongoose.connect(db, function(error){
   if(error){
@@ -31,7 +39,16 @@ mongoose.connect(db, function(error){
     console.log("mongoose connection is successful")
   }
 });
-
+app.get("/all", function(req,res){
+  dbb.coaches.find({},function(error, found){
+    if(error){
+      console.log(error);
+    }
+    else{
+      res.json(found);
+    }
+  })
+})
 
 app.post("/submit", function(req,res){
 
