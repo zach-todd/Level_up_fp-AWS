@@ -40,7 +40,7 @@ mongoose.connect(db, function(error){
   }
 });
 app.get("/all", function(req,res){
-  db.coaches.find({},function(error, found){
+  coaches.find({},function(error, found){
     if(error){
       console.log(error);
     }
