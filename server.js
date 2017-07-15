@@ -25,7 +25,7 @@ require("./app/controller/htmlRoutes")(app);
 app.use(express.static(__dirname + "/app"));
 
 
-var db = process.env.mongodb:;
+var db =process.env.MONGODB_URI || "mongodb://localhost/CoachList";
 var databaseUrl = "CoachList";
 var collections = ["coaches"];
 
